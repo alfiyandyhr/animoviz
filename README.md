@@ -4,6 +4,12 @@ Open the live demo: [https://alfiyandyhr.github.io/animoviz/ ](https://alfiyand
 
 AniMoViz lets you explore story similarities between 1,000 AniList anime and 1,000 TMDB movies. Use the view menu to switch between the interactive comparison, release timelines, and searchable catalogue.
 
+## Project materials
+
+- Read the [project overview (PDF)](assets/project_overview.pdf) for an introduction to AniMoViz.
+- Download the [project presentation (PowerPoint)](assets/presentation.pptx).
+- Follow the [demo script (plain text)](assets/dnm_catalogue_demo.txt) for a guided walkthrough of Dust & Magnet and Full Catalogue.
+
 ## Run locally
 
 With Python 3.10+ installed, run this from the project root and open [http://localhost:8000](http://localhost:8000).
