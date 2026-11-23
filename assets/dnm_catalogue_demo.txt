@@ -1,0 +1,306 @@
+AniMoViz | Dust & Magnet and Full Catalogue
+Full walkthrough
+
+Rehearsal setup
+From the animoviz folder, run python3 -m http.server 8000 --bind 127.0.0.1
+Open http://127.0.0.1:8000/ in a fresh private window. Wait for the Inception magnet
+and 60 anime dots. Set light mode before you start so step 2 switches to dark mode.
+Read the Say lines aloud. Use the Action lines as on-screen cues.
+
+DUST & MAGNET | ONE MAGNET
+
+01. Open the view menu
+    Action
+    Open the Dust & Magnet menu in the header. Point to the three views, then close it.
+    Say
+    “AniMoViz has three views. We’ll start in Dust & Magnet, where you can
+    explore recommendations around a title you already enjoy.”
+
+02. Switch themes
+    Action
+    Click the theme button at the top right to switch from light to dark mode.
+    Say
+    “You can switch between light and dark mode. I’ll use dark mode for this example.”
+
+03. Choose the dust type
+    Action
+    Open Dust type and choose Anime titles, even if it is already the default.
+    Say
+    “The dust represents what we want to discover. I’m looking for something
+    to watch, so I’ll make each dot an anime title.”
+
+04. Remove the example magnet
+    Action
+    Click the × beside Inception in the magnet list.
+    Say
+    “A magnet represents a criterion for the search. Inception is already here
+    as an example. I’ll remove it so you can see how to add a magnet.”
+
+05. Add Inception and show the title picker
+    Action
+    Under Try a favorite, click Inception. Click the movie search field, type Ave,
+    then clear it. Scroll inside the results to browse and click outside to close.
+    Say
+    “Suppose I liked Inception and want an anime with a similar story. I can
+    start with this shortcut or use the title picker to search and browse.”
+
+06. Read a tooltip and set the dot count
+    Action
+    Hover over a few dots, including Paprika. Open Anime dots and choose
+    60 · balanced. The other choices are 30 · quiet and 90 · explore.
+    Say
+    “Hover over a dot to see the title and its story similarity score. The field
+    shows a sample from our 1,000 anime. With Inception as the only magnet, it
+    shows the closest matches. I’ll keep 60 dots on screen.”
+
+07. Inspect Paprika, then zoom and pan
+    Action
+    Click Paprika. Point briefly to its poster in the right-hand In Focus card.
+    Scroll down inside that card and back up. Zoom into the main field until
+    posters replace dots. Drag the empty background to pan, then reset zoom to 1×.
+    Three clicks on the field’s + control from 1× reach poster view at 8×.
+    Say
+    “Paprika is our first match. The card shows the title’s details and synopsis.
+    Zoom in to see the posters in the field, then drag the background to look
+    around.”
+
+08. Add, remove, and restore comparison titles
+    Action
+    With Paprika selected, click PSYCHO-PASS and Steins;Gate. Click Steins;Gate
+    again, then click empty space in the plot to remove PSYCHO-PASS. Reselect
+    PSYCHO-PASS and Steins;Gate.
+    Say
+    “We can compare up to three titles. Clicking a selected dot toggles it off.
+    Clicking empty space removes the most recent selection. I’ll bring the
+    three back for a side-by-side comparison.”
+
+09. Read the comparison
+    Action
+    Scroll below the playground to Comparing 3 anime. Point to the Inception row.
+    Say
+    “Of these three, Paprika has the highest story similarity to Inception at
+    0.607, followed by Steins;Gate and PSYCHO-PASS.”
+
+10. Move the magnet
+    Action
+    Scroll back up, drag Inception across the field, and release it. When the
+    dots settle, hover over Paprika again.
+    Say
+    “The dots move with the magnet. Stronger matches tend to gather close to it.
+    Paprika remains in the inner cluster, and the tooltip still shows 0.607.”
+
+11. Clear the comparison and reset
+    Action
+    Click empty space inside the plot three times, then click Reset positions.
+    Say
+    “We’ve explored story similarity on its own. Now let’s add a second criterion.”
+
+DUST & MAGNET | TWO MAGNETS
+
+12. Add Popularity
+    Action
+    Under Magnet type, select Popularity, then click Add popularity magnet.
+    Wait for the field to settle.
+    Say
+    “Suppose I also want an anime that many people have added to their
+    lists. I’ll add Popularity, which uses AniList list-user counts.”
+
+13. Switch the color encoding
+    Action
+    Under Color dust by, select Brushing and linking, then switch back to
+    Strongest pull.
+    Say
+    “In Strongest pull mode, a dot takes the color of the magnet pulling it most
+    strongly. The two colors show how the titles divide between story similarity
+    and popularity. We’ll use the brush in a moment.”
+
+14. Compare a title from each side
+    Action
+    Click Paprika and JUJUTSU KAISEN in the field. Scroll to Comparing 2 anime.
+    Say
+    “Paprika leads on similarity to Inception. Jujutsu Kaisen has a much higher
+    AniList user count. The comparison puts both measures side by side.”
+
+15. Check the similarity map
+    Action
+    Scroll to In-depth analysis and show Compare similarities & differences
+    with the Inception magnet active in the map.
+    Say
+    “The similarity map ranks the 60 titles currently in the field. For
+    Inception, Paprika is first and Jujutsu Kaisen is sixtieth.”
+
+16. Switch to Popularity and replace one selection
+    Action
+    Click Popularity in the map. Click JUJUTSU KAISEN in the Highest scoring
+    list to deselect it, then click Attack on Titan at rank 1. Close the
+    details drawer with × or Escape to return to the map.
+    Say
+    “For Popularity, Jujutsu Kaisen is third and Paprika is fifty-fourth in this
+    set. I’ll swap in Attack on Titan, the most popular title.”
+
+17. Find a title that does well on both criteria
+    Action
+    Switch the map back to Inception. Scroll inside Highest scoring to rank 14.
+    Click Death Note, then close its details drawer.
+    Say
+    “Death Note is the first purple dot in the Inception list. It ranks
+    fourteenth for story similarity in this field, and its color tells us that
+    the Popularity magnet pulls it more strongly. Let’s check how it does when
+    we give both criteria equal weight.”
+
+18. Compare rankings across all 1,000 anime
+    Action
+    Open Full anime ranking. Under Rank by, select Cosine to Inception, then
+    Popularity (AniList users), then Average attraction percentile. Keep
+    rank 1 first.
+    Say
+    “Across all 1,000 anime, Paprika ranks first for story similarity, and
+    Attack on Titan ranks first for popularity. When we convert each criterion
+    to a percentile and give the two equal weight, Death Note comes first.”
+
+19. Locate the three titles in the field
+    Action
+    Scroll back to the playground and click Reset positions. Double-click
+    Paprika, then Attack on Titan, then Death Note, using each as a visual cue.
+    Double-clicking may toggle a dot twice. Check the selection count and
+    restore any missing title with a single click before the next step.
+    Say
+    “Paprika sits on the Inception side, and Attack on Titan sits on the
+    Popularity side. Death Note sits between them. Position suggests how the
+    pulls compare, and the ranking confirms how well the title does overall.”
+
+20. Clear the comparison and reset again
+    Action
+    Click empty space inside the plot three times to clear the selections.
+    Click Reset positions.
+    Say
+    “Now let’s add one more criterion.”
+
+DUST & MAGNET | THREE MAGNETS
+
+21. Add Score
+    Action
+    Under Magnet type, select Score and click Add score magnet.
+    Say
+    “I’ll also factor in how highly viewers rate each anime. The Score magnet
+    uses AniList ratings out of 100.”
+
+22. Revisit the two leading titles
+    Action
+    Zoom toward the Inception side using the scroll wheel over the field.
+    Click Paprika, then reset zoom to 1×. Repeat near Popularity and click
+    Attack on Titan, then reset zoom again.
+    Say
+    “We’ll keep our two reference points. Paprika leads on story similarity,
+    and Attack on Titan leads on popularity.”
+
+23. Turn on Brushing and linking
+    Action
+    Under Color dust by, select Brushing and linking. Point to the box in the
+    field and the red or pink dots it highlights.
+    Say
+    “The brush highlights dots inside the box and dims the others. The same
+    titles light up in the linked charts. The middle is a useful place to
+    explore when several magnets pull a title by similar amounts.”
+
+24. Check the Score ordering and make a third selection
+    Action
+    Scroll to Compare similarities & differences. Click Inception, then
+    Popularity, then Score in the map. Scroll down and back up inside the
+    Highest scoring list. Click Fullmetal Alchemist: Brotherhood and close
+    the details drawer.
+    Say
+    “Paprika and Attack on Titan still lead on their own criteria. Fullmetal
+    Alchemist: Brotherhood is first in the Score list for these 60 titles.
+    A highlighted row, such as Hunter x Hunter, shows a title that is inside
+    the current brush.”
+    Cue
+    Brush highlights depend on the exact box position and layout. Point to an
+    actually highlighted row if Hunter x Hunter (2011) is outside the box.
+
+25. Confirm the top three-criterion result
+    Action
+    Open Full anime ranking and make sure Rank by is set to
+    Average attraction percentile.
+    Say
+    “Across all 1,000 anime, Fullmetal Alchemist: Brotherhood comes first
+    when we give story similarity, popularity, and rating equal weight.”
+
+26. Open the linked scatterplot and switch themes
+    Action
+    Open Score vs. popularity & dust mirror. Switch to light mode with the
+    theme button, then return to the two charts if the header click takes
+    you away from them.
+    Say
+    “I’ll switch to light mode so we can follow the highlights across the two
+    charts.”
+
+27. Move the brush between regions
+    Action
+    In the right-hand Dust & Magnet mirror, use a short wheel zoom toward
+    about 1.5×. Drag an open patch inside the brush toward the Popularity
+    side and cover a cluster of dots. Move it toward the Score side, then
+    back toward the middle so it covers Fullmetal Alchemist: Brotherhood.
+    Say
+    “The scatterplot on the left puts AniList user count on the horizontal
+    axis and rating on the vertical axis. Brushing near Popularity highlights
+    many titles farther to the right. Near Score, more of the highlighted
+    titles sit higher up. When I bring the box back over Fullmetal Alchemist:
+    Brotherhood, its point lights up toward the upper right.”
+    Cue
+    Drag from inside the box away from dots and magnets. Adjust the brush so
+    it actually covers Fullmetal Alchemist: Brotherhood before the last line.
+
+28. Preview the other analysis panels
+    Action
+    Click Genres & release years, then Score vs. popularity by credit & heatmap.
+    Say
+    “The same set can also be explored by genre, release year, and credits.”
+
+DUST & MAGNET | OTHER DUST TYPES
+
+29. Switch to studios and voice actors
+    Action
+    Switch back to dark mode. Scroll to the playground. Under Dust type,
+    choose Anime studios, then Anime voice actors. Wait for the dots to
+    render after each switch. Zoom in until the available portraits appear.
+    Say
+    “You can explore the studios behind these titles or the Japanese voice
+    actors who appear in them. At higher zoom, the view shows actor portraits
+    where artwork is available.”
+
+30. Preview movie dust types
+    Action
+    Open Dust type. Point to Movie titles, Movie actors, and Movie writers,
+    then close the menu without changing the selection.
+    Say
+    “We can also go in the other direction. Start from anime and explore movies,
+    their actors, or their writers.”
+
+FULL CATALOGUE
+
+31. Switch between the two catalogues
+    Action
+    Open the view menu and choose Full Catalogue. Click Anime, then Movie.
+    Wait for the movie rows to load.
+    Say
+    “Full Catalogue lets us browse both samples directly. There are 1,000
+    anime from AniList and 1,000 movies from TMDB.”
+
+32. Filter the movie list
+    Action
+    Scroll enough to bring Filters into view if needed. Set Genre to Science
+    Fiction and From year to 2010. Point to the updated count and table.
+    The bundled snapshot shows 175 of 1,000 movies.
+    Say
+    “I’ll narrow the movies to science fiction from 2010 onward. The table
+    and the result count update as I change the filters.”
+
+33. Review the filtered summary and charts
+    Action
+    Scroll past the table to the metrics, Key facts at a glance, and the
+    Score vs. popularity rank chart.
+    Say
+    “The summaries and charts now describe the filtered movies. We can see
+    how many matched, their average rating, and how score varies across the
+    popularity ranks.”
